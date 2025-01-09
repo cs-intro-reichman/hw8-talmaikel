@@ -116,7 +116,7 @@ public class Network {
 
     // Returns a textual description of all the users in this network, and who they follow.
     public String toString() {
-      StringBuilder network = new StringBuilder("Network: ");
+      StringBuilder network = new StringBuilder("Network:");
       for (int i = 0; i < userCount; i++) {
           network.append(System.lineSeparator()).append(users[i].toString());
       }
